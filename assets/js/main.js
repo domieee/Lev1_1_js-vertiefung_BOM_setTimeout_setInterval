@@ -3,7 +3,7 @@ const stopInterval = document.querySelector('#stopInterval')
 
 let n = 10
 
-function intervalRound() {
+function start() {
 
     let firstInterval = () => {
         console.log(n);
@@ -30,4 +30,4 @@ function stop() {
 }
 
 stopInterval.addEventListener('click', stop)
-startInterval.addEventListener('click', intervalRound)
+startInterval.addEventListener('click', start)
