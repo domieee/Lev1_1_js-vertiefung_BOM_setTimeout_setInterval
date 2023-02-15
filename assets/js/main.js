@@ -26,6 +26,7 @@ function intervalRound() {
 
 function stop() {
     clearInterval(first)
+    n = 10
 }
 
 stopInterval.addEventListener('click', stop)
