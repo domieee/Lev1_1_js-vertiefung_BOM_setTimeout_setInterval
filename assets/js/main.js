@@ -5,7 +5,7 @@ let n = 10
 
 function intervalRound() {
 
-    let fistInterval = () => {
+    let firstInterval = () => {
         console.log(n);
         if (n === 0) {
             clearInterval(first)
@@ -20,7 +20,7 @@ function intervalRound() {
 
     setTimeout(() => {
         console.log('u wasted 3 seconds of your life.. :-(')
-        first = setInterval(fistInterval, 1000)
+        first = setInterval(firstInterval, 1000)
     }, '3000')
 }
 
